@@ -30,7 +30,7 @@ npm install
 ```
 
 4-Start the development server:
-```gti
+```git
 npm run dev
 ```
 The app will be available at http://localhost:5173.
@@ -41,3 +41,16 @@ The app will be available at http://localhost:5173.
 - Vite
 - Tailwind CSS
 - Lucide
+
+
+#### Run Docker Container
+
+- build docker image
+```bash
+docker build -t <image_name> .
+```
+
+- run docker container
+```bash
+docker run -it -p 3000:3000 --name demo <image_name>
+```
