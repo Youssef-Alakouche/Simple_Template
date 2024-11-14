@@ -5,7 +5,7 @@ import code from "../assets/code.jpg";
 
 function Workflow() {
   return (
-    <section className="container mx-auto text-center pb-20 my-20 border-b border-neutral-600">
+    <section id="Workflow" className="container mx-auto text-center pb-20 my-20 border-b border-neutral-600">
       <header>
         <h2 className="text-4xl md:text-5xl xl:text-6xl">
           Accelerate your{" "}

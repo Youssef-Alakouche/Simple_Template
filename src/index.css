@@ -10,6 +10,9 @@
         color-scheme: dark;
         font-family: Poppins, sans-serif;
     }
+    html {
+        scroll-behavior: smooth;
+    }
     body {
         /* background: #111111; */
         color: white;

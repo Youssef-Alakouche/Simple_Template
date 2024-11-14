@@ -4,7 +4,7 @@ import { CircleCheck } from "lucide-react";
 
 function Pricing() {
   return (
-    <section className="container mx-auto pb-20 my-20 border-b border-neutral-600">
+    <section id="Pricing" className="container mx-auto pb-20 my-20 border-b border-neutral-600">
       <h2 className="text-center text-4xl xl:text-6xl my-16">Pricing</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3   gap-4  sm:px-12 xl:px-40">
         {pricingOptions.map((item) => (

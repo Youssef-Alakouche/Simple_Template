@@ -7,7 +7,7 @@ import EmptyBtn from "./UI/EmptyBtn";
 
 function Hero() {
   return (
-    <section className=" max-sm:mx-10 my-20 ">
+    <section id="Hero" className=" max-sm:mx-10 my-20 ">
       <div className="container mx-auto flex flex-col gap-10 items-center">
         <div className="text-center space-y-7 sm:px-20 md:px-28 lg:px-48 xl:px-96">
           <h1 className="text-4xl md:text-5xl lg:text-6xl">

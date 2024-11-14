@@ -4,7 +4,7 @@ import { features } from "../constants";
 
 function Features() {
   return (
-    <section className="container mx-auto text-center pb-20 my-20 border-b border-neutral-600">
+    <section id="Features" className="container mx-auto text-center pb-20 my-20 border-b border-neutral-600">
       <header>
         <strong className="font-medium tracking-tight px-2 py-1 bg-orange-500/10 rounded-md">
           FEATURE

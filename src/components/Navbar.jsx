@@ -16,10 +16,10 @@ function Navbar() {
   return (
     <nav className="max-sm:px-10 z-50  backdrop-blur-lg border-b border-b-neutral-700/80 ">
       <div className="container flex justify-between items-center mx-auto py-4 sm:px-3 lg:px-8">
-        <div className=" flex items-center shrink-0">
+        <a href="#Hero" className=" flex items-center shrink-0">
           <img src={logo} alt="logo" className="size-12 mr-2" />
           <span className="text-lg tracking-tight">VirtualR</span>
-        </div>
+        </a>
         <ul className=" hidden lg:flex gap-7 ">
           {navItems.map((item) => (
             <li key={item.label}>
