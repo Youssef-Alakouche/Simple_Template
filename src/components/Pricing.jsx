@@ -26,7 +26,7 @@ function Pricing() {
               ))}
             </ul>
             <div>
-            <button className="text-center mt-10 w-full border border-orange-800 transition-all rounded-md py-2 hover:bg-orange-800">Subscribe</button>
+            <button className="text-center mt-10 w-full border border-orange-800 transition-all rounded-md py-2 hover:bg-orange-800 duration-200">Subscribe</button>
 
             </div>
           </article>
